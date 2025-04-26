@@ -26,13 +26,13 @@ This repository accompanies the report _Matched Filter Design and Simulation_. I
 ## Step-by-Step Instructions
 
 ### 1. MATLAB Reference Flow
-1. **Change directory** to the design folder:
+1. Change directory** to the design folder:
    ```bash
    cd MATLAB_Design
-2. **Generate test vectors and ideal output:
+2. Generate test vectors and ideal output:
    ```bash
    matched_filter_design    % exports *_bin.txt and runs ideal filter
-3. **Compare hardware vs. reference (once ModelSim has produced sim_io.txt):
+3. Compare hardware vs. reference (once ModelSim has produced sim_io.txt):
    ```bash
    comparison               % aligns, prints RMSE and Pearson R
    simulation_results       % recreates comparison plots
